@@ -55,7 +55,7 @@ def main():
     with open("index.html", "w") as f:
         f.write(html)
         
-    print("Successfully generated index.html")
+    print("#### index.html was generated successfully ####")
 
 if __name__ == "__main__":
     main()
