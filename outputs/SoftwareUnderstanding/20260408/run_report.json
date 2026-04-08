@@ -1,0 +1,291 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-08T14:32:14Z",
+    "dry_run": true,
+    "analysis_summary_file": "20260408/analysis_results.json",
+    "previous_report_source": null
+  },
+  "counters": {
+    "total": 12,
+    "created": 0,
+    "simulated": 12,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/arxiv_category_pull",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 0,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:30:05Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002",
+      "current_commit_id": "d56cf463f3744d9e7801f7ce63f8d0e08655cadc",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_arxiv_category_pull/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/CodeMetaSoft_website",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 0,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:30:18Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002",
+      "current_commit_id": "ebef09ae075974c32399bed63ec3912d605d7c46",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_codemetasoft_website/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/Metadata-Adoption-Quantify",
+      "platform": "github",
+      "pitfalls_count": 4,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:30:38Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P001",
+        "P002",
+        "P014",
+        "P016"
+      ],
+      "warnings_ids": [
+        "W004"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P001|P002|P014|P016|W004",
+      "current_commit_id": "eafadc5d4d216978b2f6836b8caa9ded8e80bac2",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_metadata_adoption_quantify/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/ScientificSoftwareKG",
+      "platform": "github",
+      "pitfalls_count": 0,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:30:47Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [],
+      "warnings_ids": [
+        "W002"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "W002",
+      "current_commit_id": "962da14cd629eb6a0363e70f56a92cc07aab21e0",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_scientificsoftwarekg/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/auto-papers-with-artifacts",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 4,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:30:57Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [
+        "W001",
+        "W002",
+        "W003",
+        "W004"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002|W001|W002|W003|W004",
+      "current_commit_id": "8da944154445099a4700e04b776f9dd438ccb61d",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_auto_papers_with_artifacts/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/somef_server",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:31:06Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [
+        "W002"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002|W002",
+      "current_commit_id": "b9d7b7a276fd7b062121839cd15eb658d3a40a2e",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_somef_server/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/inspect4py",
+      "platform": "github",
+      "pitfalls_count": 0,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:31:18Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [],
+      "warnings_ids": [
+        "W001"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "W001",
+      "current_commit_id": "585ceaace3a5889110150dec1144c4a1165ac025",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_inspect4py/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/SOMEF-Vider",
+      "platform": "github",
+      "pitfalls_count": 2,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:31:28Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002",
+        "P017"
+      ],
+      "warnings_ids": [
+        "W002"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002|P017|W002",
+      "current_commit_id": "98c09d22be72a90c8732725e607f79c37b847b4b",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_somef_vider/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/completeR",
+      "platform": "github",
+      "pitfalls_count": 0,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:31:37Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [],
+      "warnings_ids": [
+        "W001"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "W001",
+      "current_commit_id": "f8da4850e119b05241f9f80711c54350d3916ee7",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_completer/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/rolf",
+      "platform": "github",
+      "pitfalls_count": 2,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:31:55Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P001",
+        "P002"
+      ],
+      "warnings_ids": [
+        "W001"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P001|P002|W001",
+      "current_commit_id": "02dd2da08d2e21359ffbf597cf9137bd97220a8d",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_rolf/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/software_types",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 0,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:32:05Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002",
+      "current_commit_id": "a2c40586c603f92019eae85f39ee6af2f2e1c1ba",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_software_types/pitfall.jsonld"
+    },
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/c2t",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-08T14:32:14Z",
+      "sw_metadata_bot_version": "0.4.0",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [
+        "W002"
+      ],
+      "action": "simulated_created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002|W002",
+      "current_commit_id": "761e274f3e5167fb2714a4f41b4baf75ec7fc254",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "file": "20260408/github_com_softwareunderstanding_c2t/pitfall.jsonld"
+    }
+  ]
+}
