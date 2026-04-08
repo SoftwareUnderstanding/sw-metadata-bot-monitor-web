@@ -1,0 +1,195 @@
+import argparse
+import datetime
+import glob
+import json
+import os
+from datetime import timezone
+
+import pystache
+
+
+def argument_parser() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--config-file",
+        default="input/config.json",
+        help="Path to the bot config file (default: input/config.json)",
+    )
+    args = parser.parse_args()
+    return args
+
+
+def process_data(report_data: dict):
+    """Enhance raw JSON data for the template."""
+    repos = []
+    for repo in report_data["records"]:
+        name = repo["repo_url"].rstrip("/").split("/")[-1]
+
+        try:
+            analysis_date = datetime.datetime.fromisoformat(
+                repo["analysis_date"].replace("Z", "+00:00")
+            )
+            analysis_date_formatted = analysis_date.strftime("%b %d, %Y")
+        except Exception:
+            analysis_date_formatted = repo["analysis_date"]
+
+        has_issues = False
+        has_pitfalls = False
+        has_warnings = False
+
+        if repo.get("pitfalls_ids"):
+            has_issues = True
+            has_pitfalls = True
+
+        if repo.get("warnings_ids"):
+            has_issues = True
+            has_warnings = True
+
+        repo_enhanced = repo.copy()
+        repo_enhanced["repo_name"] = name
+        repo_enhanced["analysis_date_formatted"] = analysis_date_formatted
+        repo_enhanced["has_issues"] = has_issues
+        repo_enhanced["has_pitfalls"] = has_pitfalls
+        repo_enhanced["has_warnings"] = has_warnings
+
+        repos.append(repo_enhanced)
+    return repos
+
+
+def scan_run_reports(config: dict) -> list[dict]:
+    """Scan the outputs directory and return run_report snapshots sorted oldest-first.
+
+    Each entry contains:
+        snapshot_tag  — folder name used as tag (e.g. "20260408")
+        label         — human-readable date string (e.g. "April 08, 2026")
+        path          — path to run_report.json
+    """
+    root_dir = config["outputs"]["root_dir"]
+    run_name = config["outputs"]["run_name"]
+    snapshot_tag_format = config["outputs"]["snapshot_tag_format"]
+
+    pattern = os.path.join(root_dir, run_name, "*", "run_report.json")
+    snapshots = []
+    for report_path in glob.glob(pattern):
+        snapshot_tag = os.path.basename(os.path.dirname(report_path))
+        try:
+            dt = datetime.datetime.strptime(snapshot_tag, snapshot_tag_format)
+            label = dt.strftime("%B %d, %Y")
+        except ValueError:
+            label = snapshot_tag
+        snapshots.append(
+            {"snapshot_tag": snapshot_tag, "label": label, "path": report_path}
+        )
+
+    snapshots.sort(key=lambda x: x["snapshot_tag"])
+    return snapshots
+
+
+def build_history_links(
+    snapshots: list[dict], history_dir: str = "history"
+) -> list[dict]:
+    """Convert a list of snapshots into navigation link dictionaries for the template."""
+    links = []
+    for snapshot in snapshots:
+        html_filename = f"report_{snapshot['snapshot_tag']}.html"
+        links.append(
+            {
+                "url": f"{history_dir}/{html_filename}",
+                "label": snapshot["label"],
+                "filename": html_filename,
+                "snapshot_tag": snapshot["snapshot_tag"],
+            }
+        )
+    return links
+
+
+def main():
+    HISTORY_DIR = "history"
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+
+    args = argument_parser()
+    with open(args.config_file, "r") as f:
+        config = json.load(f)
+
+    snapshots = scan_run_reports(config)
+    if not snapshots:
+        root = os.path.join(
+            config["outputs"]["root_dir"], config["outputs"]["run_name"]
+        )
+        print(f"No run_report.json files found under {root}/. Exiting.")
+        return
+
+    all_links = build_history_links(snapshots)
+
+    with open("template.mustache", "r") as f:
+        template = f.read()
+
+    print("Regenerating historical HTMLs...")
+    for snapshot, link in zip(snapshots, all_links):
+        with open(snapshot["path"], "r") as f:
+            snapshot_data = json.load(f)
+
+        snapshot_repos = process_data(snapshot_data)
+
+        page_links = [
+            {
+                "url": lk["filename"],
+                "label": lk["label"],
+                "is_active": lk["filename"] == link["filename"],
+            }
+            for lk in all_links
+        ]
+
+        template_data = {
+            "date_stamp": snapshot["label"],
+            "total_repos": len(snapshot_repos),
+            "repos": snapshot_repos,
+            "history_links": page_links,
+            "base_path": "../",
+            "is_current": False,
+        }
+
+        html = pystache.render(template, template_data)
+        with open(os.path.join(HISTORY_DIR, link["filename"]), "w") as f:
+            f.write(html)
+
+    # Generate the current index.html from the most recent snapshot
+    current_snapshot = snapshots[-1]
+    with open(current_snapshot["path"], "r") as f:
+        current_data = json.load(f)
+
+    current_repos = process_data(current_data)
+
+    generated_at_raw = current_data.get("run_metadata", {}).get("generated_at")
+    if generated_at_raw:
+        generated_at = datetime.datetime.fromisoformat(
+            generated_at_raw.replace("Z", "+00:00")
+        )
+        date_stamp = generated_at.strftime("%B %d, %Y at %H:%M UTC")
+    else:
+        date_stamp = datetime.datetime.now(timezone.utc).strftime(
+            "%B %d, %Y at %H:%M UTC"
+        )
+
+    root_links = [
+        {"url": lk["url"], "label": lk["label"], "is_active": False} for lk in all_links
+    ]
+
+    template_data = {
+        "date_stamp": date_stamp,
+        "total_repos": len(current_repos),
+        "repos": current_repos,
+        "history_links": root_links,
+        "base_path": "",
+        "is_current": True,
+    }
+
+    html = pystache.render(template, template_data)
+    with open("index.html", "w") as f:
+        f.write(html)
+
+    print("#### index.html and history were generated successfully ####")
+
+
+if __name__ == "__main__":
+    main()
