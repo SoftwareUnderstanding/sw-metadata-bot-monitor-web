@@ -1,18 +1,18 @@
 {
   "run_metadata": {
-    "generated_at": "2026-04-08T14:31:28Z",
-    "dry_run": true,
+    "generated_at": "2026-04-08T15:26:03Z",
+    "dry_run": false,
     "analysis_summary_file": "20260408/analysis_results.json",
     "previous_report_source": null
   },
   "counters": {
     "total": 1,
     "created": 0,
-    "simulated": 1,
+    "simulated": 0,
     "updated_by_comment": 0,
     "closed": 0,
     "skipped": 0,
-    "failed": 0
+    "failed": 1
   },
   "records": [
     {
@@ -21,7 +21,7 @@
       "pitfalls_count": 2,
       "warnings_count": 1,
       "issue_url": null,
-      "analysis_date": "2026-04-08T14:31:28Z",
+      "analysis_date": "2026-04-08T15:25:16Z",
       "sw_metadata_bot_version": "0.4.0",
       "rsmetacheck_version": "0.2.1",
       "pitfalls_ids": [
@@ -31,13 +31,14 @@
       "warnings_ids": [
         "W002"
       ],
-      "action": "simulated_created",
-      "reason_code": "no_previous_analysis",
+      "action": "failed",
+      "reason_code": "publish_exception",
       "findings_signature": "P002|P017|W002",
       "current_commit_id": "98c09d22be72a90c8732725e607f79c37b847b4b",
       "dry_run": true,
       "issue_persistence": "simulated",
-      "file": "20260408/github_com_softwareunderstanding_somef_vider/pitfall.jsonld"
+      "file": "20260408/github_com_softwareunderstanding_somef_vider/pitfall.jsonld",
+      "error": "403 Client Error: Forbidden for url: https://api.github.com/repos/SoftwareUnderstanding/SOMEF-Vider/issues"
     }
   ]
 }
