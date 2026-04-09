@@ -5795,7 +5795,7 @@ wheels = [
 
 [[package]]
 name = "sw-metadata-bot"
-version = "0.4.0"
+version = "0.4.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -5804,9 +5804,9 @@ dependencies = [
     { name = "rsmetacheck" },
     { name = "setuptools", extra = ["test"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/de/f1/8092af3f359ee1f18165f5cd09e88ea02fdf182be1c35a4de8b69ceb355e/sw_metadata_bot-0.4.0.tar.gz", hash = "sha256:c66bc064eb01430b51b11bf8278079d878d2213077e90498ae711194bb104f14", size = 38631 }
+sdist = { url = "https://files.pythonhosted.org/packages/b9/ab/b386a38198c50705f67fb8c32b087b9c877806b283c554af17fb031ac3f5/sw_metadata_bot-0.4.1.tar.gz", hash = "sha256:80150b3ef1f1407759cfb657c164089179e8f79bda27ea08842c5741b576cd0e", size = 41788 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0b/2f/d49f4517a24f9802f662d458ce54c3857f9e23691f6a387d1fce3a3c70ba/sw_metadata_bot-0.4.0-py3-none-any.whl", hash = "sha256:4a8c8f807abb19360361dd8d94c2b377678d5fb0fea758784be0a0cb467197f8", size = 32201 },
+    { url = "https://files.pythonhosted.org/packages/5b/38/b92e1d14bb07abca89715d06c5a2c680289521b5c9bf890ecbeb33575152/sw_metadata_bot-0.4.1-py3-none-any.whl", hash = "sha256:65f3ad19defc8b16e5419f0114aeee4e3ecc8fdcf4d18e168d6b3caaaec5f54b", size = 33696 },
 ]
 
 [[package]]
@@ -5821,7 +5821,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "pystache", specifier = ">=0.6.8" },
-    { name = "sw-metadata-bot", specifier = ">=0.4.0" },
+    { name = "sw-metadata-bot", specifier = ">=0.4.1" },
 ]
 
 [[package]]
