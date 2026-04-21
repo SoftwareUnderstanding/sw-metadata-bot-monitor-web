@@ -1,0 +1,45 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-09T15:53:33Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260409/analysis_results.json",
+    "previous_report_source": null
+  },
+  "counters": {
+    "total": 1,
+    "created": 1,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/Metadata-Adoption-Quantify",
+      "platform": "github",
+      "pitfalls_count": 4,
+      "warnings_count": 1,
+      "issue_url": "https://github.com/SoftwareUnderstanding/Metadata-Adoption-Quantify/issues/5",
+      "analysis_date": "2026-04-09T15:51:57Z",
+      "sw_metadata_bot_version": "0.4.1",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P001",
+        "P002",
+        "P014",
+        "P016"
+      ],
+      "warnings_ids": [
+        "W004"
+      ],
+      "action": "created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P001|P002|P014|P016|W004",
+      "current_commit_id": "eafadc5d4d216978b2f6836b8caa9ded8e80bac2",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "file": "20260409/github_com_softwareunderstanding_metadata_adoption_quantify/pitfall.jsonld"
+    }
+  ]
+}

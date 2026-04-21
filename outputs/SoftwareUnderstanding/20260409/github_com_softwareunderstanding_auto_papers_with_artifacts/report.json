@@ -1,0 +1,45 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-09T15:53:35Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260409/analysis_results.json",
+    "previous_report_source": null
+  },
+  "counters": {
+    "total": 1,
+    "created": 1,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/auto-papers-with-artifacts",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 4,
+      "issue_url": "https://github.com/SoftwareUnderstanding/auto-papers-with-artifacts/issues/5",
+      "analysis_date": "2026-04-09T15:52:15Z",
+      "sw_metadata_bot_version": "0.4.1",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [
+        "W001",
+        "W002",
+        "W003",
+        "W004"
+      ],
+      "action": "created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002|W001|W002|W003|W004",
+      "current_commit_id": "8da944154445099a4700e04b776f9dd438ccb61d",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "file": "20260409/github_com_softwareunderstanding_auto_papers_with_artifacts/pitfall.jsonld"
+    }
+  ]
+}

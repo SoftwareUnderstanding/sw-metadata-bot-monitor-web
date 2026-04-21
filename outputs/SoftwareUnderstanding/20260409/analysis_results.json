@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-04-09T15:53:31Z",
+  "summary": {
+    "evaluated_repositories": {
+      "github_com_softwareunderstanding_arxiv_category_pull": {
+        "url": "https://github.com/SoftwareUnderstanding/arxiv_category_pull",
+        "commit_id": "d56cf463f3744d9e7801f7ce63f8d0e08655cadc"
+      },
+      "github_com_softwareunderstanding_codemetasoft_website": {
+        "url": "https://github.com/SoftwareUnderstanding/CodeMetaSoft_website",
+        "commit_id": "ebef09ae075974c32399bed63ec3912d605d7c46"
+      },
+      "github_com_softwareunderstanding_metadata_adoption_quantify": {
+        "url": "https://github.com/SoftwareUnderstanding/Metadata-Adoption-Quantify",
+        "commit_id": "eafadc5d4d216978b2f6836b8caa9ded8e80bac2"
+      },
+      "github_com_softwareunderstanding_scientificsoftwarekg": {
+        "url": "https://github.com/SoftwareUnderstanding/ScientificSoftwareKG",
+        "commit_id": "962da14cd629eb6a0363e70f56a92cc07aab21e0"
+      },
+      "github_com_softwareunderstanding_auto_papers_with_artifacts": {
+        "url": "https://github.com/SoftwareUnderstanding/auto-papers-with-artifacts",
+        "commit_id": "8da944154445099a4700e04b776f9dd438ccb61d"
+      },
+      "github_com_softwareunderstanding_somef_server": {
+        "url": "https://github.com/SoftwareUnderstanding/somef_server",
+        "commit_id": "b9d7b7a276fd7b062121839cd15eb658d3a40a2e"
+      },
+      "github_com_softwareunderstanding_inspect4py": {
+        "url": "https://github.com/SoftwareUnderstanding/inspect4py",
+        "commit_id": "585ceaace3a5889110150dec1144c4a1165ac025"
+      },
+      "github_com_softwareunderstanding_somef_vider": {
+        "url": "https://github.com/SoftwareUnderstanding/SOMEF-Vider",
+        "commit_id": "98c09d22be72a90c8732725e607f79c37b847b4b"
+      },
+      "github_com_softwareunderstanding_completer": {
+        "url": "https://github.com/SoftwareUnderstanding/completeR",
+        "commit_id": "f8da4850e119b05241f9f80711c54350d3916ee7"
+      },
+      "github_com_softwareunderstanding_rolf": {
+        "url": "https://github.com/SoftwareUnderstanding/rolf",
+        "commit_id": "02dd2da08d2e21359ffbf597cf9137bd97220a8d"
+      },
+      "github_com_softwareunderstanding_software_types": {
+        "url": "https://github.com/SoftwareUnderstanding/software_types",
+        "commit_id": "a2c40586c603f92019eae85f39ee6af2f2e1c1ba"
+      },
+      "github_com_softwareunderstanding_c2t": {
+        "url": "https://github.com/SoftwareUnderstanding/c2t",
+        "commit_id": "761e274f3e5167fb2714a4f41b4baf75ec7fc254"
+      }
+    }
+  }
+}
