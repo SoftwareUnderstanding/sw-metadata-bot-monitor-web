@@ -14,7 +14,7 @@
     "https://github.com/SoftwareUnderstanding/c2t"
   ],
   "issues": {
-    "custom_message": "You are part of the Software Understanding metadata quality initiative. Several metadata issues were identified and could be addressed.",
+    "custom_message": "You are part of the Software Understanding metadata quality initiative beta analysis. This initiative is meant to test the use of a bot to monitor the quality of metadata in software repositories.",
     "opt_outs": []
   },
   "outputs": {
