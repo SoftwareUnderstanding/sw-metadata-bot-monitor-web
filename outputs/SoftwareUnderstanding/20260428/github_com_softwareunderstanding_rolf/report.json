@@ -1,0 +1,47 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-28T12:57:49Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260428/analysis_results.json",
+    "previous_report_source": "20260427/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 1,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/rolf",
+      "platform": "github",
+      "pitfalls_count": 2,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-04-27T12:35:56Z",
+      "sw_metadata_bot_version": "0.4.2",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P001",
+        "P002"
+      ],
+      "warnings_ids": [
+        "W001"
+      ],
+      "action": "skipped",
+      "reason_code": "repo_not_updated",
+      "previous_issue_url": "https://github.com/SoftwareUnderstanding/rolf/issues/27",
+      "findings_signature": "P001|P002|W001",
+      "current_commit_id": "02dd2da08d2e21359ffbf597cf9137bd97220a8d",
+      "previous_commit_id": "02dd2da08d2e21359ffbf597cf9137bd97220a8d",
+      "dry_run": false,
+      "issue_persistence": "none",
+      "codemeta_generated": true,
+      "codemeta_status": "missing",
+      "file": "20260428/github_com_softwareunderstanding_rolf/pitfall.jsonld"
+    }
+  ]
+}
