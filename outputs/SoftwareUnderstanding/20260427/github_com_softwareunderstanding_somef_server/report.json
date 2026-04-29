@@ -1,0 +1,44 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-27T12:36:21Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260427/analysis_results.json",
+    "previous_report_source": null
+  },
+  "counters": {
+    "total": 1,
+    "created": 1,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/somef_server",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 1,
+      "issue_url": "https://github.com/SoftwareUnderstanding/somef_server/issues/4",
+      "analysis_date": "2026-04-27T12:35:05Z",
+      "sw_metadata_bot_version": "0.4.2",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [
+        "W002"
+      ],
+      "action": "created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002|W002",
+      "current_commit_id": "b9d7b7a276fd7b062121839cd15eb658d3a40a2e",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260427/github_com_softwareunderstanding_somef_server/pitfall.jsonld"
+    }
+  ]
+}

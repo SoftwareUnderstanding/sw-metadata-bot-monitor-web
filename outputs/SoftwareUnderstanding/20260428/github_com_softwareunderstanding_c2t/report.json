@@ -1,0 +1,46 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-28T12:57:50Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260428/analysis_results.json",
+    "previous_report_source": "20260427/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 1,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/c2t",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 1,
+      "issue_url": "https://github.com/SoftwareUnderstanding/c2t/issues/4",
+      "analysis_date": "2026-04-28T12:57:48Z",
+      "sw_metadata_bot_version": "0.4.2",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [
+        "W002"
+      ],
+      "action": "updated_by_comment",
+      "reason_code": "changed_and_issue_open",
+      "previous_issue_url": "https://github.com/SoftwareUnderstanding/c2t/issues/4",
+      "findings_signature": "P002|W002",
+      "current_commit_id": "438de34bd9682abfc292bf7bc3e514a6c7f79e6e",
+      "previous_commit_id": "761e274f3e5167fb2714a4f41b4baf75ec7fc254",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260428/github_com_softwareunderstanding_c2t/pitfall.jsonld"
+    }
+  ]
+}
