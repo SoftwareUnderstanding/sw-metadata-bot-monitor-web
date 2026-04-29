@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-04-29T09:37:14Z",
+  "summary": {
+    "evaluated_repositories": {
+      "github_com_softwareunderstanding_arxiv_category_pull": {
+        "url": "https://github.com/SoftwareUnderstanding/arxiv_category_pull",
+        "commit_id": "d56cf463f3744d9e7801f7ce63f8d0e08655cadc"
+      },
+      "github_com_softwareunderstanding_codemetasoft_website": {
+        "url": "https://github.com/SoftwareUnderstanding/CodeMetaSoft_website",
+        "commit_id": "ebef09ae075974c32399bed63ec3912d605d7c46"
+      },
+      "github_com_softwareunderstanding_metadata_adoption_quantify": {
+        "url": "https://github.com/SoftwareUnderstanding/Metadata-Adoption-Quantify",
+        "commit_id": "0b390a36c0a5e5aca475ac5ac37de9d46a8d1a97"
+      },
+      "github_com_softwareunderstanding_scientificsoftwarekg": {
+        "url": "https://github.com/SoftwareUnderstanding/ScientificSoftwareKG",
+        "commit_id": "962da14cd629eb6a0363e70f56a92cc07aab21e0"
+      },
+      "github_com_softwareunderstanding_somef_server": {
+        "url": "https://github.com/SoftwareUnderstanding/somef_server",
+        "commit_id": "b9d7b7a276fd7b062121839cd15eb658d3a40a2e"
+      },
+      "github_com_softwareunderstanding_inspect4py": {
+        "url": "https://github.com/SoftwareUnderstanding/inspect4py",
+        "commit_id": "96dc151837623ed676deebc596734267aa8d855e"
+      },
+      "github_com_softwareunderstanding_somef_vider": {
+        "url": "https://github.com/SoftwareUnderstanding/SOMEF-Vider",
+        "commit_id": "98c09d22be72a90c8732725e607f79c37b847b4b"
+      },
+      "github_com_softwareunderstanding_completer": {
+        "url": "https://github.com/SoftwareUnderstanding/completeR",
+        "commit_id": "341b1ceced308b6d93b2f6107f90fd468a3d26ed"
+      },
+      "github_com_softwareunderstanding_software_types": {
+        "url": "https://github.com/SoftwareUnderstanding/software_types",
+        "commit_id": "a2c40586c603f92019eae85f39ee6af2f2e1c1ba"
+      },
+      "github_com_softwareunderstanding_c2t": {
+        "url": "https://github.com/SoftwareUnderstanding/c2t",
+        "commit_id": "438de34bd9682abfc292bf7bc3e514a6c7f79e6e"
+      },
+      "github_com_softwareunderstanding_sw_metadata_bot": {
+        "url": "https://github.com/SoftwareUnderstanding/sw-metadata-bot",
+        "commit_id": "589f0be9998fe1f1ee11e543ef083b2fd1df3b59"
+      },
+      "github_com_softwareunderstanding_rsmetacheck": {
+        "url": "https://github.com/SoftwareUnderstanding/RsMetaCheck",
+        "commit_id": "82d9ad3901793b2a393fcf757652487004f2821d"
+      }
+    }
+  }
+}

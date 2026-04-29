@@ -1,0 +1,48 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-29T12:50:12Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260429_2/analysis_results.json",
+    "previous_report_source": "20260429/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 1,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/RsMetaCheck",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 3,
+      "issue_url": "https://github.com/SoftwareUnderstanding/RsMetaCheck/issues/76",
+      "analysis_date": "2026-04-29T12:50:09Z",
+      "sw_metadata_bot_version": "0.4.2",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P017"
+      ],
+      "warnings_ids": [
+        "W001",
+        "W002",
+        "W004"
+      ],
+      "action": "updated_by_comment",
+      "reason_code": "changed_and_issue_open",
+      "previous_issue_url": "https://github.com/SoftwareUnderstanding/RsMetaCheck/issues/76",
+      "findings_signature": "P017|W001|W002|W004",
+      "current_commit_id": "703a2dffccda07e4b94dd444b1ac97b3bfebd99e",
+      "previous_commit_id": "82d9ad3901793b2a393fcf757652487004f2821d",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260429_2/github_com_softwareunderstanding_rsmetacheck/pitfall.jsonld"
+    }
+  ]
+}
