@@ -1,0 +1,48 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-05-22T06:24:19Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260522/analysis_results.json",
+    "previous_report_source": "20260505/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 1
+  },
+  "records": [
+    {
+      "repo_url": "https://gitlab.in2p3.fr/CTA-LAPP/rta/hiperta/",
+      "platform": "gitlab",
+      "pitfalls_count": 1,
+      "warnings_count": 0,
+      "issue_url": null,
+      "analysis_date": "2026-05-22T06:09:28Z",
+      "sw_metadata_bot_version": "0.4.3",
+      "rsmetacheck_version": "0.3.1",
+      "pitfalls_ids": [
+        "P012"
+      ],
+      "warnings_ids": [],
+      "action": "failed",
+      "reason_code": "publish_exception",
+      "findings_signature": "P012",
+      "current_commit_id": "ff8aeacb29f7ffca2aa6b3dd60a99e84577c31f2",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260522/gitlab_in2p3_fr_cta_lapp_rta_hiperta/pitfall.jsonld",
+      "error": "401 Client Error: Unauthorized for url: https://gitlab.in2p3.fr/api/v4/projects/CTA-LAPP%2Frta/issues",
+      "is_transient_error": false,
+      "retry_after_seconds": 30,
+      "retry_attempt": 1,
+      "failed_at": "2026-05-22T06:24:19Z",
+      "last_publish_action": "simulated_created"
+    }
+  ]
+}

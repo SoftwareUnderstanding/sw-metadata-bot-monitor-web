@@ -1,0 +1,46 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-05-22T06:24:21Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260522/analysis_results.json",
+    "previous_report_source": "20260505/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 1,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/javierrico/gLike",
+      "platform": "github",
+      "pitfalls_count": 2,
+      "warnings_count": 2,
+      "issue_url": "https://github.com/javierrico/gLike/issues/79",
+      "analysis_date": "2026-05-22T06:11:20Z",
+      "sw_metadata_bot_version": "0.4.3",
+      "rsmetacheck_version": "0.3.1",
+      "pitfalls_ids": [
+        "P002",
+        "P014"
+      ],
+      "warnings_ids": [
+        "W002",
+        "W004"
+      ],
+      "action": "created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002|P014|W002|W004",
+      "current_commit_id": "6c89dcd25351a970787b76ef84b0b57eeaf723f1",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260522/github_com_javierrico_glike/pitfall.jsonld"
+    }
+  ]
+}

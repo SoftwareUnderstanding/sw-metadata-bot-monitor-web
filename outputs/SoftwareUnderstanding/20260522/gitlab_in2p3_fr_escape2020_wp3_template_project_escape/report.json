@@ -1,0 +1,52 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-05-22T06:24:13Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260522/analysis_results.json",
+    "previous_report_source": "20260505/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 1
+  },
+  "records": [
+    {
+      "repo_url": "https://gitlab.in2p3.fr/escape2020/wp3/template_project_escape",
+      "platform": "gitlab",
+      "pitfalls_count": 2,
+      "warnings_count": 2,
+      "issue_url": null,
+      "analysis_date": "2026-05-22T06:04:11Z",
+      "sw_metadata_bot_version": "0.4.3",
+      "rsmetacheck_version": "0.3.1",
+      "pitfalls_ids": [
+        "P012",
+        "P014"
+      ],
+      "warnings_ids": [
+        "W001",
+        "W004"
+      ],
+      "action": "failed",
+      "reason_code": "publish_exception",
+      "findings_signature": "P012|P014|W001|W004",
+      "current_commit_id": "86dcebc7cd006c83aa4a763d9982f8eef3634fea",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260522/gitlab_in2p3_fr_escape2020_wp3_template_project_escape/pitfall.jsonld",
+      "error": "401 Client Error: Unauthorized for url: https://gitlab.in2p3.fr/api/v4/projects/escape2020%2Fwp3/issues",
+      "is_transient_error": false,
+      "retry_after_seconds": 30,
+      "retry_attempt": 1,
+      "failed_at": "2026-05-22T06:24:13Z",
+      "last_publish_action": "simulated_created"
+    }
+  ]
+}

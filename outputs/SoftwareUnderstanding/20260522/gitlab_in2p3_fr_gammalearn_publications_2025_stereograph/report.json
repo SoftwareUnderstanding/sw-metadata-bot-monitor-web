@@ -1,0 +1,50 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-05-22T06:24:15Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260522/analysis_results.json",
+    "previous_report_source": "20260505/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 1
+  },
+  "records": [
+    {
+      "repo_url": "https://gitlab.in2p3.fr/gammalearn/publications/2025-stereograph",
+      "platform": "gitlab",
+      "pitfalls_count": 1,
+      "warnings_count": 1,
+      "issue_url": null,
+      "analysis_date": "2026-05-22T06:07:54Z",
+      "sw_metadata_bot_version": "0.4.3",
+      "rsmetacheck_version": "0.3.1",
+      "pitfalls_ids": [
+        "P017"
+      ],
+      "warnings_ids": [
+        "W004"
+      ],
+      "action": "failed",
+      "reason_code": "publish_exception",
+      "findings_signature": "P017|W004",
+      "current_commit_id": "6a51e0d6664f6a67609524fc8d68193f74012bce",
+      "dry_run": true,
+      "issue_persistence": "simulated",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260522/gitlab_in2p3_fr_gammalearn_publications_2025_stereograph/pitfall.jsonld",
+      "error": "401 Client Error: Unauthorized for url: https://gitlab.in2p3.fr/api/v4/projects/gammalearn%2Fpublications/issues",
+      "is_transient_error": false,
+      "retry_after_seconds": 30,
+      "retry_attempt": 1,
+      "failed_at": "2026-05-22T06:24:15Z",
+      "last_publish_action": "simulated_created"
+    }
+  ]
+}
