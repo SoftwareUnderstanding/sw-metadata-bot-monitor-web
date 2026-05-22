@@ -1,0 +1,46 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-29T09:37:16Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260429/analysis_results.json",
+    "previous_report_source": "20260428/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 1,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/completeR",
+      "platform": "github",
+      "pitfalls_count": 0,
+      "warnings_count": 3,
+      "issue_url": "https://github.com/SoftwareUnderstanding/completeR/issues/12",
+      "analysis_date": "2026-04-29T09:36:44Z",
+      "sw_metadata_bot_version": "0.4.2",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [],
+      "warnings_ids": [
+        "W001",
+        "W002",
+        "W004"
+      ],
+      "action": "updated_by_comment",
+      "reason_code": "changed_and_issue_open",
+      "previous_issue_url": "https://github.com/SoftwareUnderstanding/completeR/issues/12",
+      "findings_signature": "W001|W002|W004",
+      "current_commit_id": "341b1ceced308b6d93b2f6107f90fd468a3d26ed",
+      "previous_commit_id": "f8da4850e119b05241f9f80711c54350d3916ee7",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260429/github_com_softwareunderstanding_completer/pitfall.jsonld"
+    }
+  ]
+}

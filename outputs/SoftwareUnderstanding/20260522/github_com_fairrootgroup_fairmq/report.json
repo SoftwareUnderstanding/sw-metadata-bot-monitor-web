@@ -1,0 +1,43 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-05-22T06:24:13Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260522/analysis_results.json",
+    "previous_report_source": "20260505/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 1,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/FairRootGroup/FairMQ",
+      "platform": "github",
+      "pitfalls_count": 2,
+      "warnings_count": 0,
+      "issue_url": "https://github.com/FairRootGroup/FairMQ/issues/546",
+      "analysis_date": "2026-05-22T06:04:23Z",
+      "sw_metadata_bot_version": "0.4.3",
+      "rsmetacheck_version": "0.3.1",
+      "pitfalls_ids": [
+        "P001",
+        "P006"
+      ],
+      "warnings_ids": [],
+      "action": "created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P001|P006",
+      "current_commit_id": "fa64faf3f755e9b00e0af738826718bf5117c8ea",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260522/github_com_fairrootgroup_fairmq/pitfall.jsonld"
+    }
+  ]
+}

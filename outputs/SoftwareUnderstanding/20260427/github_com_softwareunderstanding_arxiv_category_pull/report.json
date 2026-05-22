@@ -1,0 +1,42 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-27T12:36:18Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260427/analysis_results.json",
+    "previous_report_source": null
+  },
+  "counters": {
+    "total": 1,
+    "created": 1,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/arxiv_category_pull",
+      "platform": "github",
+      "pitfalls_count": 1,
+      "warnings_count": 0,
+      "issue_url": "https://github.com/SoftwareUnderstanding/arxiv_category_pull/issues/5",
+      "analysis_date": "2026-04-27T12:34:01Z",
+      "sw_metadata_bot_version": "0.4.2",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002"
+      ],
+      "warnings_ids": [],
+      "action": "created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P002",
+      "current_commit_id": "d56cf463f3744d9e7801f7ce63f8d0e08655cadc",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": true,
+      "codemeta_status": "missing",
+      "file": "20260427/github_com_softwareunderstanding_arxiv_category_pull/pitfall.jsonld"
+    }
+  ]
+}

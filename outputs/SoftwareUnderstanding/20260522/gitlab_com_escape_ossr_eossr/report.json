@@ -1,0 +1,46 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-05-22T06:24:19Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260522/analysis_results.json",
+    "previous_report_source": "20260505/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 1,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://gitlab.com/escape-ossr/eossr",
+      "platform": "gitlab",
+      "pitfalls_count": 2,
+      "warnings_count": 2,
+      "issue_url": "https://gitlab.com/escape-ossr/eossr/-/work_items/136",
+      "analysis_date": "2026-05-22T06:09:02Z",
+      "sw_metadata_bot_version": "0.4.3",
+      "rsmetacheck_version": "0.3.1",
+      "pitfalls_ids": [
+        "P001",
+        "P011"
+      ],
+      "warnings_ids": [
+        "W001",
+        "W004"
+      ],
+      "action": "created",
+      "reason_code": "no_previous_analysis",
+      "findings_signature": "P001|P011|W001|W004",
+      "current_commit_id": "4f4ec9955db6ff00df0a463a9ab10a2a27c7fd73",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260522/gitlab_com_escape_ossr_eossr/pitfall.jsonld"
+    }
+  ]
+}

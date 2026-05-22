@@ -1,0 +1,45 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-29T12:50:11Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260429_2/analysis_results.json",
+    "previous_report_source": "20260429/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 1,
+    "closed": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/sw-metadata-bot",
+      "platform": "github",
+      "pitfalls_count": 0,
+      "warnings_count": 2,
+      "issue_url": "https://github.com/SoftwareUnderstanding/sw-metadata-bot/issues/108",
+      "analysis_date": "2026-04-29T12:49:55Z",
+      "sw_metadata_bot_version": "0.4.2",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [],
+      "warnings_ids": [
+        "W002",
+        "W004"
+      ],
+      "action": "updated_by_comment",
+      "reason_code": "changed_and_issue_open",
+      "previous_issue_url": "https://github.com/SoftwareUnderstanding/sw-metadata-bot/issues/108",
+      "findings_signature": "W002|W004",
+      "current_commit_id": "a87482b994587dda6ad28f6451162d11aa89092e",
+      "previous_commit_id": "589f0be9998fe1f1ee11e543ef083b2fd1df3b59",
+      "dry_run": false,
+      "issue_persistence": "posted",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260429_2/github_com_softwareunderstanding_sw_metadata_bot/pitfall.jsonld"
+    }
+  ]
+}

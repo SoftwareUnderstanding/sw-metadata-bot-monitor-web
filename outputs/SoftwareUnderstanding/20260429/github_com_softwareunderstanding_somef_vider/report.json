@@ -1,0 +1,48 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-04-29T09:37:15Z",
+    "dry_run": false,
+    "analysis_summary_file": "20260429/analysis_results.json",
+    "previous_report_source": "20260428/run_report.json"
+  },
+  "counters": {
+    "total": 1,
+    "created": 0,
+    "simulated": 0,
+    "updated_by_comment": 0,
+    "closed": 0,
+    "skipped": 1,
+    "failed": 0
+  },
+  "records": [
+    {
+      "repo_url": "https://github.com/SoftwareUnderstanding/SOMEF-Vider",
+      "platform": "github",
+      "pitfalls_count": 2,
+      "warnings_count": 2,
+      "issue_url": null,
+      "analysis_date": "2026-04-27T12:35:28Z",
+      "sw_metadata_bot_version": "0.4.2",
+      "rsmetacheck_version": "0.2.1",
+      "pitfalls_ids": [
+        "P002",
+        "P017"
+      ],
+      "warnings_ids": [
+        "W002",
+        "W004"
+      ],
+      "action": "skipped",
+      "reason_code": "repo_not_updated",
+      "previous_issue_url": "https://github.com/SoftwareUnderstanding/SOMEF-Vider/issues/78",
+      "findings_signature": "P002|P017|W002|W004",
+      "current_commit_id": "98c09d22be72a90c8732725e607f79c37b847b4b",
+      "previous_commit_id": "98c09d22be72a90c8732725e607f79c37b847b4b",
+      "dry_run": false,
+      "issue_persistence": "none",
+      "codemeta_generated": false,
+      "codemeta_status": "present",
+      "file": "20260429/github_com_softwareunderstanding_somef_vider/pitfall.jsonld"
+    }
+  ]
+}
